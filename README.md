@@ -11,3 +11,7 @@ Channel Source Settings
 
 ![This is an image](https://github.com/voulgarikos/Mirth_Connect_Hospital_Project/blob/11b9d4bc13b6ef61711fb50d4bb7b45720170cb8/Assets/Screenshot%202022-03-02%20190553.png)
 Channel Destination Settings
+
+##### Part 3 Connect to HL7 Server, map the variables and parse the Data.
+
+![This is an image](
