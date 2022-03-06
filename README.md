@@ -17,7 +17,7 @@ Channel Destination Settings
 ![This is an image](https://github.com/voulgarikos/Mirth_Connect_Hospital_Project/blob/2dd7cddc1849ea020a71c381f6238bb8b8f1a7ba/Assets/mirth_hl7_channel_summary.png)
 Channel initialize
 
-![This is an image](
+![This is an image](https://github.com/voulgarikos/Mirth_Connect_Hospital_Project/blob/ccffedbda3da44f073b21c052a55854fa94e1b5b/Assets/mirth_hl7_channel_source.png)
 Source Settings
 
 ![This is an image](
