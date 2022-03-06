@@ -20,8 +20,8 @@ Channel initialize
 ![This is an image](https://github.com/voulgarikos/Mirth_Connect_Hospital_Project/blob/ccffedbda3da44f073b21c052a55854fa94e1b5b/Assets/mirth_hl7_channel_source.png)
 Source Settings
 
-![This is an image](
-Transformer Editing
+![This is an image](https://github.com/voulgarikos/Mirth_Connect_Hospital_Project/blob/9ac7ae19c164488ec29d1f521dd7b1888b6077dd/Assets/mirth_hl7_channel_transformer_json.png)
+Transformer Editing with javascript
 
 ![This is an image](
 Destination Settings
