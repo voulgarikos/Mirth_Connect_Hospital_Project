@@ -1,2 +1,8 @@
-# DB-Hospital-Project
-Database design and Implementation Project. Goal to create a hospital database and map it through Mirth to HL7 Data Format data
+# Mirth_Connect_Hospital_Project
+Project creating a simple Hospital DBMS connecting to it with Mirth Connect and ingesting it with HL7 format Data.
+
+The Project is divided into three steps.
+
+##### Step 1 Creating a channel and Deploying it
+
+![This is an image](
