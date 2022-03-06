@@ -23,5 +23,8 @@ Source Settings
 ![This is an image](https://github.com/voulgarikos/Mirth_Connect_Hospital_Project/blob/9ac7ae19c164488ec29d1f521dd7b1888b6077dd/Assets/mirth_hl7_channel_transformer_json.png)
 Transformer Editing with javascript
 
-![This is an image](
+![This is an image](https://github.com/voulgarikos/Mirth_Connect_Hospital_Project/blob/6b0f5724bbc9e61a140bdb2c05d201c3d06e7521/Assets/mirth_hl7_channel_json_text_destination.png)
 Destination Settings
+
+![This is an image](
+Message processed!
