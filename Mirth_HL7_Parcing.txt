@@ -1,0 +1,29 @@
+Hospital Project
+Task 2: Create and Deploy HL7 Parsing Channel - TCP Listener
+
+Step1 Launch
+Launch Mirth Server - Administrator
+
+Step2 Create Channel - TCP Listener
+Create New Channel->Summary Tab->Set Name->Message Storage:Production
+Source Tab->Connector Type:TCP Listener->Transmission Mode:MLLP
+
+Step3 Create Transformer
+Edit Transformer->Message Templates Tab->Insert Message Template(HL7 ADT04 Patient Registration)
+Message Trees Tab-> Check Message Structure->Add new Step-> Add variable name-> Map to the required field
+
+Step4 Javascript to JSON
+Edit Transformer->Add New Step->Type:Javascript->
+Code:
+var hl7_json_patient = {};
+hl7Patient.first_name = msg['PID']['PID.5']['PID.5.2'].toString();
+hl7Patient.last_name = msg['PID']['PID.5']['PID.5.1'].toString();
+hl7Patient.date_of_birth = msg['PID']['PID.7']['PID.7.1'].toString();
+hl7Patient.phone = msg['PID']['PID.13']['PID.13.1'].toString();
+hl7Patient.id = msg['PID']['PID.1']['PID.1.1'].toString();
+channelMap.put('hl7Patient', hl7Patient);
+
+
+Step5 JSON to text Destination
+Destination Tab->Connector Type: Javascript Writer->
+Code: logger.info("JSON in Plain Text: " + JSON.stringify($('hl7Patient')));

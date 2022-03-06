@@ -1,0 +1,20 @@
+MirthConnect HL7
+Project: Hospital
+Task1 Connect to SQL Server Query it and Print a txt File
+
+Step1
+Launch and connect to sql server and SSMS
+Launch and connect MirthConnect and Administrator
+
+Step2-Create Source
+Dashboard->NewChannel->Name
+Source Tab->ConnectorType->DBReader->Schedule Type:Time->Poll on start:Yes(Sends on start)->Driver:SqlServer->
+->URL: change host to localhost and dataBaseName=Hospital->Username+Pswd that connects to SqlServer->
+Select->Sql Creation Window:Get Table(this checks if connection ok!)
+Select->Sql Creation Window->Insert Table Name ->Get Table->Generate SQL
+
+Step3-Create Destination
+Destination Tab->Connector Type:File Writer->Directory:Filepath->Insert File Name
+
+Step4-Deploy
+Summary: Check Enabled
