@@ -26,5 +26,5 @@ Transformer Editing with javascript
 ![This is an image](https://github.com/voulgarikos/Mirth_Connect_Hospital_Project/blob/6b0f5724bbc9e61a140bdb2c05d201c3d06e7521/Assets/mirth_hl7_channel_json_text_destination.png)
 Destination Settings
 
-![This is an image](
+![This is an image](https://github.com/voulgarikos/Mirth_Connect_Hospital_Project/blob/fbd10084c40b46a86b70af81bd1ddae0d2b7e512/Assets/mirth_hl7_channel_json_message_ok.png)
 Message processed!
