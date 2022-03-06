@@ -14,4 +14,14 @@ Channel Destination Settings
 
 ##### Part 3 Connect to HL7 Server, map the variables and parse the Data.
 
+![This is an image](https://github.com/voulgarikos/Mirth_Connect_Hospital_Project/blob/2dd7cddc1849ea020a71c381f6238bb8b8f1a7ba/Assets/mirth_hl7_channel_summary.png)
+Channel initialize
+
 ![This is an image](
+Source Settings
+
+![This is an image](
+Transformer Editing
+
+![This is an image](
+Destination Settings
